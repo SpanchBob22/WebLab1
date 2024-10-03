@@ -85,7 +85,7 @@ nav ul li a {
 }
 
 .image-grid img {
-  width: calc(50% - 10px);
+  width: calc(33.33% - 10px);
   box-shadow: 2px 2px 1px 1px rgba(0, 0, 255, 0.2);
   border-radius: 5%;
   transition: transform 0.3s;
