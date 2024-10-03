@@ -2,71 +2,69 @@
 <html lang="uk">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Практична робота" />
     <meta name="author" content="Рой" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Практична робота №1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="styles.css" />
+    <title>Практична робота №2</title>
   </head>
   <body>
     <header>
-      <h1>Заголовок</h1>
+      <img src="logo.jpg" alt="Логотип" class="logo" />
+      <nav>
+        <ul>
+          <li><a href="">Новини</a></li>
+          <li><a href="">Списки</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <h2>Другий заголовок</h2>
-      <h3>Третій заголовок</h3>
-      <h4>Четвертий заголовок</h4>
+    <div class="container">
+      <aside class="sidebar">
+        <ul>
+          <li><a href="">Головна</a></li>
+          <li><a href="">Успішність</a></li>
+          <li><a href="">Контакти</a></li>
+          <li><a href="">FAQ</a></li>
+        </ul>
+      </aside>
 
-      <img src="image.png" alt="Приклад зображення" />
-
-      <p>Посилання на <a href="https://www.google.com">Google</a>.</p>
-
-      <ol>
-        <li>Перший пункт</li>
-        <li>Другий пункт</li>
-        <li>Третій пункт</li>
-      </ol>
-
-      <p>
-        Логарифмічна формула:
-        <span style="text-transform: uppercase">log<sub>b</sub>(a)</span> =
-        <span style="text-transform: lowercase">c</span>, де
-        <span style="text-transform: capitalize">B</span> — основа логарифму,
-        <span style="text-transform: capitalize">a</span> — число, від якого
-        беруть логарифм.
-      </p>
-
-      <video width="220" height="240" controls>
-        <source
-          src="9b632d7b-dd6d-4b4c-83eb-e24ce3205b21.mp4"
-          type="video/mp4"
-        />
-        Ваш браузер не підтримує відео.
-      </video>
-
-      <form action="submit" method="post">
-        <label for="surname">Прізвище:</label>
-        <input type="text" id="surname" name="surname" /><br /><br />
-        <label for="name">Ім'я:</label>
-        <input type="text" id="name" name="name" /><br /><br />
-        <input type="submit" value="Надіслати" />
-      </form>
-
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d771.8326189609704!2d30.514321009325283!3d50.45293105606683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce88e35e395f%3A0xc63774cf5da5a434!2z0KHQvtCx0L7RgCDQodC-0YTRltGPINCa0LjRl9Cy0YHRjNC60LA!5e1!3m2!1sru!2sua!4v1726152385383!5m2!1sru!2sua"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade"
-      ></iframe>
-    </main>
+      <main class="content">
+        <div class="image-grid">
+          <img src="image1.jpg" alt="Зображення 1" />
+          <img src="image2.jpg" alt="Зображення 2" />
+          <img src="image3.jpg" alt="Зображення 3" />
+          <img src="image4.jpg" alt="Зображення 4" />
+          <img src="image5.jpg" alt="Зображення 5" />
+          <img src="image6.jpg" alt="Зображення 6" />
+        </div>
+      </main>
+    </div>
 
     <footer>
-      <p>Це нижній колонтитул сторінки.</p>
+      <div class="footer-column">
+        <h3>СТРУКТУРА</h3>
+        <ul>
+          <li><a href="">Ректорат</a></li>
+          <li><a href="">Вчена рада</a></li>
+          <li><a href="">Департаменти</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>МОЖЛИВОСТІ ОСВІТИ</h3>
+        <ul>
+          <li><a href="">Дистанційна освіта</a></li>
+          <li><a href="">Академічна мобільність</a></li>
+          <li><a href="">Перепідготовка (друга вища освіта)</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h3>ДЛЯ КОРИСТУВАЧІВ</h3>
+        <ul>
+          <li><a href="">Школяру</a></li>
+          <li><a href="">Вступнику</a></li>
+          <li><a href="">Першокурснику</a></li>
+        </ul>
+      </div>
     </footer>
   </body>
 </html>
